@@ -45,7 +45,6 @@ export default function RoomCard({
         ]}
       >
 
-        {/* IMAGE */}
         <Image
           source={{
             uri: room.image,
@@ -53,10 +52,9 @@ export default function RoomCard({
           style={styles.image}
         />
 
-        {/* CONTENT */}
+
         <View style={styles.content}>
 
-          {/* NAME + STATUS */}
           <View style={styles.row}>
 
             <Text
@@ -94,12 +92,10 @@ export default function RoomCard({
 
           </View>
 
-          {/* LOCATION */}
           <Text style={styles.location}>
             📍 {room.building} · {room.location}
           </Text>
 
-          {/* CAPACITY */}
           <Text style={styles.capacity}>
             👥 {room.capacity} seats
           </Text>
