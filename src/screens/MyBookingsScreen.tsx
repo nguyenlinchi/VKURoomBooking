@@ -256,9 +256,6 @@ export default function MyBookingsScreen() {
 }
 
 
-// ==================================================
-// FILTER BUTTON
-// ==================================================
 
 function FilterButton({
   title,
@@ -290,9 +287,6 @@ function FilterButton({
 }
 
 
-// ==================================================
-// BOOKING CARD
-// ==================================================
 
 function BookingCard({
   booking,
